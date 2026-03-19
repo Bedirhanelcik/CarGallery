@@ -1,4 +1,17 @@
-# 🚗 CarGallery — Interactive Car Showcase Platform
+# 🚗 CarGallery
+
+### *Interactive Car Showcase Platform*
+
+<p align="center">
+  <img src="screenshots/home-1.png" width="800"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Backend-PHP-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Security-Implemented-red?style=for-the-badge"/>
+</p>
 
 ---
 
@@ -16,6 +29,16 @@ However, the project was gradually expanded and evolved into a much more advance
 The final result is a **portfolio-level full-stack application** demonstrating strong practical experience in backend development, database management, security practices, and advanced frontend design.
 
 This project was developed independently, with the entire development process carried out by me.
+
+---
+
+## 🌐 Live Demo
+
+<p align="center">
+  <a href="https://your-live-site-link.com">
+    <img src="https://img.shields.io/badge/View%20Live-Demo-black?style=for-the-badge"/>
+  </a>
+</p>
 
 ---
 
@@ -37,7 +60,7 @@ This project was developed independently, with the entire development process ca
 
 ---
 
-## ## 📄 License & Usage
+## 📄 License & Usage
 
 This project is a proprietary, portfolio-based application developed entirely by the author.
 
@@ -55,26 +78,35 @@ The source code may be provided under specific conditions:
 * For **employers or recruiters** who want to review the full implementation
 * For **clients or individuals** interested in purchasing and adapting the project for their own use
 
-If you are interested in accessing or licensing this project, please contact:
-
-📩 **[your email here]**
-
----
-
-### 🌐 Live Demo
-
-🔗 [your-live-site-link]
-
+📩 **Contact:** [your-email@example.com](mailto:your-email@example.com)
 
 ---
 
 ## 📸 Screenshots
 
-```plaintext
-/screenshots
-```
+### 🏠 Home
 
-(Project visuals will be added here)
+<img src="screenshots/home-1.png" width="800"/>
+
+### 🚗 Car Gallery
+
+<img src="screenshots/home-3.png" width="800"/>
+
+### 🔐 Authentication
+
+<img src="screenshots/login.png" width="500"/>
+
+### ➕ Add Car
+
+<img src="screenshots/add-car.png" width="500"/>
+
+### 📋 Car List
+
+<img src="screenshots/car-list.png" width="800"/>
+
+### 👤 Profile
+
+<img src="screenshots/profile.png" width="600"/>
 
 ---
 
@@ -130,43 +162,13 @@ The system includes moderation features to maintain platform integrity:
 
 ```plaintext
 CAR_GALLERY/
-│
-├── index.php                # Main landing page (homepage UI & hero sections)
-├── README.md                # Project documentation and guide
-│
 ├── assets/
-│   ├── style.css            # Main stylesheet (layout, animations, UI design)
-│   ├── script.js            # Global JavaScript (UI logic, DOM, interactions)
-│   └── images/              # Static assets used in UI
-│
 ├── auth/
-│   ├── login.php            # User login system (authentication & session start)
-│   ├── register.php         # User registration (validation & account creation)
-│   ├── logout.php           # Logout (session destroy)
-│   ├── banned.php           # Restricted access page for banned users
-│   └── auth_check.php       # Middleware (session control & route protection)
-│
 ├── cars/
-│   ├── add_car.php          # Add new car (image upload + validation)
-│   ├── edit_car.php         # Edit existing car (owner/admin control)
-│   ├── delete_car.php       # Delete car (permission-based)
-│   ├── list_car.php         # Car listing (sorting & filtering)
-│   ├── car.php              # Car detail page (comments & interactions)
-│   └── like_car.php         # Like system (AJAX-based)
-│
 ├── comments/
-│   └── like_comment.php     # Comment like system (AJAX handling)
-│
 ├── profile/
-│   ├── profile.php          # User profile page (UI + account management)
-│   ├── profile_action.php   # Backend logic for profile actions
-│   ├── change_email.php     # Email update (validation + logging)
-│   └── change_password.php  # Password update (secure hashing)
-│
 ├── config/
-│   └── db.php               # Database connection (MySQLi configuration)
-│
-└── uploads/                # User-uploaded images (car storage)
+└── uploads/
 ```
 
 ---
@@ -188,97 +190,37 @@ The application uses a relational MySQL database.
 * car_update_history
 * user_change_logs
 
-These structures handle:
+### 🗄️ Example
 
-* authentication
-* content management
-* user interactions
-* moderation
-* activity tracking
+<img src="screenshots/php-example-1.png" width="800"/>
 
 ---
 
 ## 🔐 Security Implementation
 
-🛡️ **SQL Injection Protection**
-All queries use prepared statements.
-
-🔑 **Authentication Control**
-Login required for critical actions:
-
-* adding cars
-* editing cars
-* deleting cars
-* commenting
-* liking
-
-👮 **Authorization**
-Users can only modify their own content.
-
-📁 **Image Upload Security**
-
-* extension validation
-* MIME type checks
-* file size limits
-
-🔐 **Session Security**
-Sessions are securely handled to prevent unauthorized access.
-
-🧠 **Cyber Security Relevance**
-
-The project applies real-world Web Application Security practices:
-
-* SQL injection prevention
-* authentication systems
-* authorization checks
-* secure session management
-* file upload validation
-
-Even “fsociety” would have to pass multiple layers before getting anywhere.
-
----
-
-## 📊 Database & Data Handling
-
-The project demonstrates:
-
-* relational database design
-* table relationships
-* CRUD operations
-* data validation
-* structured data storage
-
-SQL is primarily used for backend logic and data management.
+* SQL injection protection (prepared statements)
+* Authentication systems
+* Authorization controls
+* Secure session management
+* File upload validation
 
 ---
 
 ## 📚 What I Learned From This Project
 
-**Frontend, Backend, Database Design, Authentication Systems & Web Security**
-
 This project represents a full-stack development process built from scratch.
 
-On the frontend side, I developed interactive and user-focused interfaces using HTML, CSS, and JavaScript. With approximately **2 years of prior experience**, and an additional **4–5 months of intensive development in this project**, I significantly improved my practical skills and reached an advanced level in frontend development, especially in UI behavior, responsiveness, and dynamic interaction handling.
-
-On the backend side, I built the full application logic, handling client–server communication, data flow, and database interactions. I implemented CRUD operations, request validation, and ensured data integrity across the system.
-
-I designed a relational database structure, established table relationships, and managed structured data efficiently. I also implemented authentication (login, session management) and authorization (access control) systems to enforce user-based permissions.
-
-From a security perspective, I applied core Web Security principles directly in the application, including SQL injection prevention using prepared statements, session security, and secure file upload validation (MIME type, extension, and size checks).
-
-This project enabled me to independently develop a complete, production-style web application and strengthened my ability to approach real-world problems with a structured, scalable, and security-focused mindset.
+Frontend, backend, database design, authentication systems, and web security were all implemented and improved throughout the development process.
 
 ---
 
 ## 🎯 Project Purpose
 
-* practice full stack development
-* gain backend experience
-* understand relational databases
-* implement authentication systems
-* apply web security techniques
-
-The project transformed theoretical knowledge into real-world development experience.
+* Practice full stack development
+* Gain backend experience
+* Understand relational databases
+* Implement authentication systems
+* Apply web security techniques
 
 ---
 
@@ -286,6 +228,6 @@ The project transformed theoretical knowledge into real-world development experi
 
 **Bedirhan Elçik**
 
-MIS (Management Information Systems) Student
+MIS Student
 
 Full Stack Development | Web Security | Database Systems
