@@ -3,7 +3,7 @@
 ### *Interactive Car Showcase Platform*
 
 <p align="center">
-  <img src="screenshots/home-1.png" width="800"/>
+  <img src="screenshots/home-1.png" width="900"/>
 </p>
 
 <p align="center">
@@ -11,6 +11,16 @@
   <img src="https://img.shields.io/badge/Backend-PHP-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Security-Implemented-red?style=for-the-badge"/>
+</p>
+
+---
+
+## 🌐 Live Demo
+
+<p align="center">
+  <a href="https://example.com">
+    <img src="https://img.shields.io/badge/View%20Live-Demo-black?style=for-the-badge"/>
+  </a>
 </p>
 
 ---
@@ -29,16 +39,6 @@ However, the project was gradually expanded and evolved into a much more advance
 The final result is a **portfolio-level full-stack application** demonstrating strong practical experience in backend development, database management, security practices, and advanced frontend design.
 
 This project was developed independently, with the entire development process carried out by me.
-
----
-
-## 🌐 Live Demo
-
-<p align="center">
-  <a href="https://your-live-site-link.com">
-    <img src="https://img.shields.io/badge/View%20Live-Demo-black?style=for-the-badge"/>
-  </a>
-</p>
 
 ---
 
@@ -78,7 +78,7 @@ The source code may be provided under specific conditions:
 * For **employers or recruiters** who want to review the full implementation
 * For **clients or individuals** interested in purchasing and adapting the project for their own use
 
-📩 **Contact:** [your-email@example.com](mailto:your-email@example.com)
+📩 **Contact:** [bedirhan.elcik@stu.fbu.edu.tr](mailto:bedirhan.elcik@stu.fbu.edu.tr)
 
 ---
 
@@ -86,11 +86,11 @@ The source code may be provided under specific conditions:
 
 ### 🏠 Home
 
-<img src="screenshots/home-1.png" width="800"/>
+<img src="screenshots/home-1.png" width="900"/>
 
 ### 🚗 Car Gallery
 
-<img src="screenshots/home-3.png" width="800"/>
+<img src="screenshots/home-3.png" width="900"/>
 
 ### 🔐 Authentication
 
@@ -102,7 +102,7 @@ The source code may be provided under specific conditions:
 
 ### 📋 Car List
 
-<img src="screenshots/car-list.png" width="800"/>
+<img src="screenshots/car-list.png" width="900"/>
 
 ### 👤 Profile
 
@@ -162,6 +162,8 @@ The system includes moderation features to maintain platform integrity:
 
 ```plaintext
 CAR_GALLERY/
+│
+├── index.php
 ├── assets/
 ├── auth/
 ├── cars/
@@ -192,35 +194,43 @@ The application uses a relational MySQL database.
 
 ### 🗄️ Example
 
-<img src="screenshots/php-example-1.png" width="800"/>
+<img src="screenshots/php-example-1.png" width="900"/>
 
 ---
 
 ## 🔐 Security Implementation
 
-* SQL injection protection (prepared statements)
-* Authentication systems
-* Authorization controls
-* Secure session management
-* File upload validation
+🛡️ SQL injection protection (prepared statements)
+🔑 Authentication systems
+👮 Authorization controls
+📁 File upload validation
+🔐 Secure session management
+
+---
+
+## 📊 Database & Data Handling
+
+* relational database design
+* table relationships
+* CRUD operations
+* data validation
+* structured data storage
 
 ---
 
 ## 📚 What I Learned From This Project
 
-This project represents a full-stack development process built from scratch.
-
-Frontend, backend, database design, authentication systems, and web security were all implemented and improved throughout the development process.
+This project represents a full-stack development process built from scratch, covering frontend, backend, database design, authentication systems, and web security.
 
 ---
 
 ## 🎯 Project Purpose
 
-* Practice full stack development
-* Gain backend experience
-* Understand relational databases
-* Implement authentication systems
-* Apply web security techniques
+* practice full stack development
+* gain backend experience
+* understand relational databases
+* implement authentication systems
+* apply web security techniques
 
 ---
 
