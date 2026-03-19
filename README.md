@@ -101,7 +101,7 @@ The source code may be provided under specific conditions:
 
 ---
 
-## 🖼️ Car Gallery
+## 🖼️ Car List
 
 The main gallery page displays all vehicles uploaded by users.
 
