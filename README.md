@@ -6,15 +6,6 @@
   <img src="screenshots/home-1.png" width="900"/>
 
 
-
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Backend-PHP-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Security-Implemented-red?style=for-the-badge"/>
-
-
----
-
 ## 🌐 Live Demo
 
 <p align="center">
